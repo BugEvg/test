@@ -13,12 +13,11 @@ class Bootstrap
 		echo '<br /> USD: ';
 		echo '<br /> EUR: ';
 		echo '<br /> CAD: ';
-		$csv = array_map('str_getcsv', file('Report.csv'));
-		echo '<pre>';
+		$csv = array_map('str_getcsv', file($file_report));
+		/*echo '<pre>';
 		print_r($csv);
-		echo '</pre>';
+		echo '</pre>';*/
 	}
 }
-
-Bootstrap::main($file_report, $date_report);
+Bootstrap::main($argv[1], $argv[2]);
 
