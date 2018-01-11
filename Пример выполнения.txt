@@ -1,0 +1,9 @@
+$ php Bootstrap.php -f Report.csv -d 2017-01-09
+
+Totals for 2017-01-09:  
+GBP 5,695.21  
+USD 12,584.34  
+EUR 13,113.23  
+CAD 7,658.22  
+
+$
